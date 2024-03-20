@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url(https://scholarlykitchen.sspnet.org/wp-content/uploads/2018/07/iStock-506432952.jpg);
+}
+
+.container {
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 50px rgb(12, 12, 12);
+  box-shadow: 0 0 50px rgb(12, 12, 12) inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(7px);
+}
+
+.container:hover{
+  scale: 1.01;
+}
+
+h1 {
+  text-align: center;
+  -webkit-text-stroke: 2px rgb(4, 4, 4);
+  color: transparent;
+  text-shadow: 0 0 20px rgb(12, 6, 1);
+  font-size: 50px;
+}
+
+h1:hover{
+  text-shadow: 0 0 20px black;
+}
+input{
+  border-radius: 3px;
+  height: 20px;
+  background-color:white;
+  margin-left: 5px;
+  box-shadow: 0 0 10px rgb(17, 9, 9) inset;
+}
+
+#book-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.book {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.book h3 {
+  margin-top: 0;
+}
+
+.book p {
+  margin-bottom: 5px;
+}
+
+.btn {
+ margin-top: 20px;
+ font-size: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  text-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px black;
+}
+
+.btn:hover{
+  scale: 1.1;
+}
